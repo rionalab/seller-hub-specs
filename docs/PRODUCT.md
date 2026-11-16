@@ -67,7 +67,7 @@ Payment and shipping integrations, storefront/PWA, seller dashboard, mobile appl
 
 ## Implementation tracking
 
-Use [FEATURE-STATUS.md](FEATURE-STATUS.md) for shared progress with separate backend, frontend and integration evidence. Technical implementation is described in the [backend architecture](../../seller-hub-backend/docs/ARCHITECTURE.md) and [frontend architecture](../../seller-hub-frontend/docs/ARCHITECTURE.md). Historical backend alignment remains in its [review](../../seller-hub-backend/docs/ALIGNMENT-REVIEW.md). A planned capability is not implemented merely because a folder or document exists.
+Use [FEATURE-STATUS.md](FEATURE-STATUS.md) for shared progress with separate backend, frontend and integration evidence. Technical implementation is described in the [backend architecture](BE/ARCHITECTURE.md) and [frontend architecture](FE/ARCHITECTURE.md). Historical backend alignment remains in its [review](BE/ALIGNMENT-REVIEW.md). A planned capability is not implemented merely because a folder or document exists.
 
 ## Security and open decisions
 
@@ -79,8 +79,8 @@ The WhatsApp provider, LLM provider, actual catalog source and any data-import p
 
 ## Baseline capabilities
 
-Backend baseline capabilities are defined in [BASELINE-FEATURES.md](../../seller-hub-backend/docs/BASELINE-FEATURES.md), with implementation status in its TODO.md. Detailed operational policies remain undecided for Seller Hub; the file/admin/WIB reference profile is not automatically adopted. Acceptance criteria for the first business feature remain to be specified.
+Backend baseline capabilities are defined in [BASELINE-FEATURES.md](BE/BASELINE-FEATURES.md), with implementation status in its TODO.md. Detailed operational policies remain undecided for Seller Hub; the file/admin/WIB reference profile is not automatically adopted. Acceptance criteria for the first business feature remain to be specified.
 
 ## Source and precedence
 
-Business context was recovered from agent legacy/docs/PRODUCT.md, PRODUCT-VISION.md, TODO.md and the Commerce-first decision in legacy ADR 0004. PRODUCT-VISION.md preserves the supplied vision. Legacy implementation statuses and technical topology are historical; shared documents define business requirements; each implementation repository documents its active code. See [shared ownership decision](decisions/0001-shared-specifications.md).
+Business context was recovered from agent legacy/docs/PRODUCT.md, PRODUCT-VISION.md, TODO.md and the Commerce-first decision in legacy ADR 0004. PRODUCT-VISION.md preserves the supplied vision. Legacy implementation statuses and technical topology are historical; shared documents define business requirements; technical guidance lives under docs/FE and docs/BE in specs. See [shared ownership decision](decisions/0001-shared-specifications.md).

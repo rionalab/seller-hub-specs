@@ -1,8 +1,10 @@
 # Seller Hub Shared Specifications
 
-Repository ini sumber utama kebutuhan bisnis Seller Hub untuk BE dan FE. Baca docs/PRODUCT.md, docs/BUSINESS-BACKLOG.md, docs/FEATURE-STATUS.md dan spesifikasi fitur terkait sebelum mengusulkan perubahan. docs/PRODUCT-VISION.md memberi konteks visi/hipotesis; bukan persetujuan semua fitur. Ikuti docs/FEATURE-WORKFLOW.md untuk analisis kritis, keputusan dan bukti selesai.
+Cakupan workspace ini adalah seller-hub-specs, seller-hub-frontend dan seller-hub-backend. Gunakan panduan Seller Hub untuk pekerjaan di ketiga repo ini.
 
-Dokumen teknis dan skill implementasi tetap milik repository BE/FE; baca AGENTS.md tujuan sebelum mengubah kode di sana. Sumber kontrak API aktif ada di backend, dirujuk melalui docs/REPOSITORY-MAP.md. Jangan menyalin kontrak OpenAPI atau standar teknis ke specs.
+Repository ini sumber utama kebutuhan bisnis Seller Hub untuk BE dan FE. Baca docs/PRODUCT.md, docs/BUSINESS-BACKLOG.md, docs/FEATURE-STATUS.md dan spesifikasi fitur terkait sebelum mengusulkan perubahan fitur atau perilaku bisnis. docs/PRODUCT-VISION.md memberi konteks visi/hipotesis; bukan persetujuan semua fitur. Ikuti docs/FEATURE-WORKFLOW.md untuk analisis kritis, keputusan dan bukti selesai.
+
+Gunakan [Panduan kerja agent](docs/AGENT-GUIDE.md) untuk tugas FE dan BE. Baca AGENTS.md repo tujuan sebelum mengubah kode. Standar teknis dan kontrak API aktif dirujuk melalui [Peta repository](docs/REPOSITORY-MAP.md).
 
 Instruksi pengguna mengungguli default. Pisahkan fakta, asumsi, rekomendasi dan keputusan terbuka. Jangan menetapkan domain, tenancy, permissions atau fitur baru tanpa keputusan yang diperlukan. Gunakan pilihan interaktif jika tersedia. File ini bukan konfigurasi subagent otomatis.
 

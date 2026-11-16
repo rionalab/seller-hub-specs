@@ -1,6 +1,6 @@
 # Seller Hub Specifications
 
-Satu sumber konteks produk, aturan bisnis, spesifikasi fitur dan acceptance criteria untuk backend dan frontend. Repository ini hanya menyimpan dokumentasi bersama; tidak menampung kode BE/FE.
+Satu sumber konteks produk, aturan bisnis, spesifikasi fitur dan acceptance criteria untuk backend dan frontend. Dokumentasi teknis dipisah ke [docs/FE](docs/FE/) dan [docs/BE](docs/BE/). Kode dan artefak tooling tetap di repo implementasi.
 
 ```text
 seller hub/                 (workspace, bukan repository Git)
